@@ -1,0 +1,27 @@
+# Model artifacts (directories created by training)
+results/
+checkpoints/
+runs/
+wandb/
+logs/
+
+# Model weights and export formats
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+
+# Dataset caches (optional if you keep data outside repo)
+datasets/
+data/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS junk
+.DS_Store
+Thumbs.db
